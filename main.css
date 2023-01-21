@@ -1,0 +1,74 @@
+
+h1{
+    text-align: center;
+    font-size: 300%;
+}
+.container{
+    width: 50%;
+    margin: auto;
+}
+label,input{
+    display: block;
+    text-align: center;
+    
+}
+label{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: x-large;
+}
+input{
+    height: 4vh;
+    margin: auto;
+    width: 40%;
+    border-radius: 0.4rem;
+    border-color: blueviolet;
+    font-size: x-large;
+}
+h1{
+    margin-bottom: 4rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+#check-button{
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    font-size: x-large;
+    border-radius: 0.5rem;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-color: blueviolet;
+    padding: 1rem 2rem;
+}
+#check-button:hover{
+    background-color: rebeccapurple;
+    cursor: pointer;
+}
+#Output-Box{
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: xx-large;
+}
+.bottom{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+}
+li{
+    display: inline-block;
+    
+}
+ul{
+    display: block;
+    margin: auto;
+}
+img{
+    max-width: 60px;
+    
+}
