@@ -60,15 +60,28 @@ input::-webkit-inner-spin-button {
     bottom: 0;
     margin: auto;
 }
-li{
-    display: inline-block;
-    
-}
-ul{
-    display: block;
-    margin: auto;
-}
 img{
     max-width: 60px;
     
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 18rem;
+}
+.flex-item{
+    align-self: center;
+    margin: 1rem;
+}
+.item2{
+    align-self: center;
+}
+img:hover{
+    border-radius: 0.2rem;
+    background-color: rgb(240, 232, 232);
+}
+img{
+    width: 90%;
+    height: 60%;
 }
